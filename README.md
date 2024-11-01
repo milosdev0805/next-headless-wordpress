@@ -1,9 +1,4 @@
 ## 🎨 Next.js Headless WordPress
-[![Project Status: Active.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
-![Stars](https://img.shields.io/github/stars/imranhsayed/nextjs-headless-wordpress?label=%E2%AD%90%20Stars)
-![Forks](https://img.shields.io/github/forks/imranhsayed/nextjs-headless-wordpress?color=%23ff69b4)
-![Contributors](https://img.shields.io/github/contributors/imranhsayed/nextjs-headless-wordpress?color=blue)
-![Follow](https://img.shields.io/github/followers/imranhsayed?label=Please%20follow%20%20to%20support%20my%20work%20%F0%9F%99%8F&style=social)
 
 - Headless WordPress, using Decoupled Architecture in Next.js
 - Backend in WordPress using WPGraphQL
@@ -30,7 +25,6 @@ without having to re-build next.js the application.
 14. Gutenberg styles support
 
 ## [Tutorial Course](https://codeytek.com/course/next-js-headless-wordpress-course/)
-Code for the tutorial is in the [Tutorial Branch](https://github.com/imranhsayed/nextjs-headless-wordpress/tree/feature/youtube-tutorial)
 
 ## [Live Demo Link](https://nextjs-headless-wordpress-demo.vercel.app/)
 https://nextjs-headless-wordpress-demo.vercel.app/
@@ -42,8 +36,8 @@ https://nextjs-headless-wordpress-demo.vercel.app/
 First clone/fork the repo and cd into it.
 
 ```bash
-git clone https://github.com/imranhsayed/nextjs-headless-wordpress.git
-cd nextjs-headless-wordpress
+git clone https://github.com/milosdev0805/next-headless-wordpress.git
+cd next-headless-wordpress
 ```
 
 - Install Docker from [docs.docker.com/get-docker](https://docs.docker.com/get-docker/) ( this step may not be required if you are using your own WordPress setup.)
@@ -98,7 +92,6 @@ This is going to automatically:
 * Update block registry by going to WordPress Dashboard > GraphQL Gutenberg. 
 * Update the permalink by going to Settings > Permalinks > Post name > Save
 * Copy the backend/wordpress/.htaccess file content into your WordPress .htaccess
-* For more information checkout the project [Wiki](https://github.com/imranhsayed/nextjs-headless-wordpress/wiki/)
 
 That's it!
 
